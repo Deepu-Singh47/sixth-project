@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="shortcut icon"
+      href="img/pngtree-ribbon-banner-with-text-quiz-png-image_4737858.png"
+      type="image/x-icon"
+    />
+    <title>Quiz Competition - Registration</title>
+  </head>
+  <body>
+    <nav class="nv navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">Quiz Competition</a>
+      </div>
+    </nav>
+    <div class="mt-5 col-9 col-md-6 mx-auto">
+      <h2 class="text-center" style="margin-bottom: 30px">Registration Form</h2>
+      <form id="registration-form" class="form-control border-2">
+        <div class="mb-3 col-12 col-md-5 mx-md-4">
+          <label for="name" class="form-label">Name</label>
+          <input
+            type="text"
+            class="form-control border-black"
+            id="name"
+            required
+          />
+        </div>
+        <div class="mb-3 col-12 col-md-5 mx-md-4">
+          <label for="email" class="form-label">Email</label>
+          <input
+            type="email"
+            class="form-control border-black"
+            id="email"
+            required
+          />
+        </div>
+        <div class="mb-3 col-12 col-md-5 mx-md-4">
+          <label for="city" class="form-label">City</label>
+          <input
+            type="text"
+            class="form-control border-black"
+            id="city"
+            required
+          />
+        </div>
+        <div class="mb-3 col-12 col-md-5 mx-md-4">
+          <label for="state" class="form-label">State</label>
+          <select class="form-select border-black" id="state" required>
+            <option value="" disabled selected>Select State</option>
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+            <option value="Assam">Assam</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Chhattisgarh">Chhattisgarh</option>
+            <option value="Goa">Goa</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Himachal Pradesh">Himachal Pradesh</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Manipur">Manipur</option>
+            <option value="Meghalaya">Meghalaya</option>
+            <option value="Mizoram">Mizoram</option>
+            <option value="Nagaland">Nagaland</option>
+            <option value="Odisha">Odisha</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Sikkim">Sikkim</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Tripura">Tripura</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Uttarakhand">Uttarakhand</option>
+            <option value="West Bengal">West Bengal</option>
+            <option value="Andaman and Nicobar Islands">
+              Andaman and Nicobar Islands
+            </option>
+            <option value="Chandigarh">Chandigarh</option>
+            <option value="Dadra and Nagar Haveli and Daman and Diu">
+              Dadra and Nagar Haveli and Daman and Diu
+            </option>
+            <option value="Lakshadweep">Lakshadweep</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Puducherry">Puducherry</option>
+          </select>
+        </div>
+        <div class="mb-3 col-12 col-md-5 mx-md-4">
+          <label for="college" class="form-label">College</label>
+          <select class="form-select border-black" id="college" required>
+            <option value="" disabled selected>Select College</option>
+            <option value="Acharya Narendra Dev College">
+              Acharya Narendra Dev College
+            </option>
+            <option value="Aditi Mahavidyalaya">Aditi Mahavidyalaya</option>
+            <option value="Atma Ram Sanatan Dharma College">
+              Atma Ram Sanatan Dharma College
+            </option>
+            <option value="Bhagini Nivedita College">
+              Bhagini Nivedita College
+            </option>
+            <option value="Bharati College">Bharati College</option>
+            <option value="Bhim Rao Ambedkar College">
+              Bhim Rao Ambedkar College
+            </option>
+            <option value="College of Vocational Studies">
+              College of Vocational Studies
+            </option>
+            <option value="Daulat Ram College">Daulat Ram College</option>
+            <option value="Deen Dayal Upadhyaya College">
+              Deen Dayal Upadhyaya College
+            </option>
+            <option value="Delhi College of Arts and Commerce">
+              Delhi College of Arts and Commerce
+            </option>
+            <option value="Deshbandhu College">Deshbandhu College</option>
+            <option value="Dyal Singh College">Dyal Singh College</option>
+            <option value="Gargi College">Gargi College</option>
+            <option value="Hansraj College">Hansraj College</option>
+            <option value="Hindu College">Hindu College</option>
+            <option value="Indraprastha College for Women">
+              Indraprastha College for Women
+            </option>
+            <option value="Janki Devi Memorial College">
+              Janki Devi Memorial College
+            </option>
+            <option value="Jesus and Mary College">
+              Jesus and Mary College
+            </option>
+            <option value="Kalindi College">Kalindi College</option>
+            <option value="Kamala Nehru College">Kamala Nehru College</option>
+            <option value="Keshav Mahavidyalaya">Keshav Mahavidyalaya</option>
+            <option value="Kirori Mal College">Kirori Mal College</option>
+            <option value="Lady Hardinge Medical College">
+              Lady Hardinge Medical College
+            </option>
+            <option value="Lady Irwin College">Lady Irwin College</option>
+            <option value="Lady Shri Ram College for Women">
+              Lady Shri Ram College for Women
+            </option>
+            <option value="Lakshmibai College">Lakshmibai College</option>
+            <option value="Maharaja Agrasen College">
+              Maharaja Agrasen College
+            </option>
+            <option value="Maitreyi College">Maitreyi College</option>
+            <option value="Mata Sundri College for Women">
+              Mata Sundri College for Women
+            </option>
+            <option value="Miranda House">Miranda House</option>
+            <option value="Motilal Nehru College">Motilal Nehru College</option>
+            <option value="P.G.D.A.V. College">P.G.D.A.V. College</option>
+            <option value="Rajdhani College">Rajdhani College</option>
+            <option value="Ramjas College">Ramjas College</option>
+            <option value="Satyawati College">Satyawati College</option>
+            <option value="Shaheed Bhagat Singh College">
+              Shaheed Bhagat Singh College
+            </option>
+            <option
+              value="Shaheed Rajguru College of Applied Sciences for Women"
+            >
+              Shaheed Rajguru College of Applied Sciences for Women
+            </option>
+            <option value="Shaheed Sukhdev College of Business Studies">
+              Shaheed Sukhdev College of Business Studies
+            </option>
+            <option value="Shri Ram College of Commerce">
+              Shri Ram College of Commerce
+            </option>
+            <option value="Shyam Lal College">Shyam Lal College</option>
+            <option value="Shyam Lal College (Evening)">
+              Shyam Lal College (Evening)
+            </option>
+            <option value="Sri Guru Gobind Singh College of Commerce">
+              Sri Guru Gobind Singh College of Commerce
+            </option>
+            <option value="Sri Guru Nanak Dev Khalsa College">
+              Sri Guru Nanak Dev Khalsa College
+            </option>
+            <option value="Sri Venkateswara College">
+              Sri Venkateswara College
+            </option>
+            <option value="St. Stephen's College">St. Stephen's College</option>
+            <option value="Swami Shraddhanand College">
+              Swami Shraddhanand College
+            </option>
+            <option value="Vivekananda College">Vivekananda College</option>
+            <option value="Zakir Husain Delhi College">
+              Zakir Husain Delhi College
+            </option>
+            <option value="Zakir Husain P.G. Evening College">
+              Zakir Husain P.G. Evening College
+            </option>
+          </select>
+        </div>
+
+        <button
+          type="submit"
+          class="btn btn-primary col-12 col-md-5 mx-md-4 d-inline"
+        >
+          Register
+        </button>
+      </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
